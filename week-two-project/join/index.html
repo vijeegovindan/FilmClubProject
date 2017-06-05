@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="../css/main.css" rel="stylesheet">
+    <title></title>
+  </head>
+  <body>
+<!-- Film Club header -->
+    <header>
+      <nav>
+          <div class="cls_logo"><img class="img_logo" src="../images/filmclub.png"></div>
+          <div class="cls_navlinks">
+            <div class="cls_home cls_header_padding"><a href="../index.html">Home</a></div>
+            <div class="cls_cal cls_header_padding"><a href="../calendar/index.html">Calendar</a></div>
+            <div class="cls_join cls_header_padding"><a href="#">Join</a></div>
+          </div>
+      </nav>
+    </header>
+<!-- Main content -->
+    <main>
+<!-- Section 1 : Credentials and Image -->
+      <div class="cls_title_join">Join Film Club</div>
+      <section>
+        <div class="cls_cred">
+            <div class="cls_cred_img">
+                <p>Profile Picture</p>
+                <p><input type="file" name="txtFile" value="Choose File"></p>
+                <p><img src="../images/profile-placeholder.png" alt="Profile Placeholder" class="cls_pic"></p>
+            </div>
+            <div class="cls_cred_input">
+                <div>name<br><input type="text" name="txtName"></div>
+                <div>password<br><input type="password" name="txtPassword"></div>
+                <div>email address<br><input type="email" name="txtEmail"></div>
+                <div>confirm password<br><input type="password" name="txtCPassword"></div>
+            </div>
+        </div>
+      </section>
+<!-- Section 2 : Genres -->
+      <section>
+        <div class="cls_title_genres"><p>Which genres are you interested in?</p></div>
+        <div class="cls_genres">
+          <div class="cls_input_genres"><input type="checkbox" name="chkBox" value="action">action</div>
+          <div class="cls_input_genres" ><input type="checkbox" name="chkBox" value="adventure">adventure</div>
+          <div class="cls_input_genres"><input type="checkbox" name="chkBox" value="comedy">comedy</div>
+          <div class="cls_input_genres"><input type="checkbox" name="chkBox" value="drama">drama</div>
+          <div class="cls_input_genres"><input type="checkbox" name="chkBox" value="fantasy">fantasy</div>
+          <div class="cls_input_genres"><input type="checkbox" name="chkBox" value="historical">historical</div>
+          <div class="cls_input_genres"><input type="checkbox" name="chkBox" value="horror">horror</div>
+          <div class="cls_input_genres"><input type="checkbox" name="chkBox" value="mystery">mystery</div>
+          <div class="cls_input_genres"><input type="checkbox" name="chkBox" value="romance">romance</div>
+          <div class="cls_input_genres"><input type="checkbox" name="chkBox" value="science fiction">science fiction</div>
+          <div class="cls_input_genres"><input type="checkbox" name="chkBox" value="western">western</div>
+        </div>
+      </section>
+<!-- Section 3 : Submit -->
+      <section>
+          <div class="cls_add">
+            <label>Additional input</label>
+            <textarea placeholder="Additional inputs...!" cols="150" rows="8"></textarea>
+            <input class="cls_submit" type="submit" value="Join Film Club">
+          </div>
+      </section>
+
+    </main>
+
+<!--Film Club Footer -->
+    <footer>
+      <div class="cls_footer">
+          <div class="cls_home cls_footer_padding"><a href="../index.html">Home</a></div>
+          <div class="cls_cal cls_footer_padding"><a href="../calendar/index.html">Calendar</a></div>
+          <div class="cls_join cls_footer_padding"><a href="#">Join</a></div>
+          <div class="cls_footer_right cls_footer_padding">&copy; 2017, Film Club</div>
+      <div>
+    </footer>
+  </body>
+</html>
